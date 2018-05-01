@@ -1,0 +1,26 @@
+indexes:
+- kind: PasswordStore
+  properties:
+  - name: clue
+  - name: confirmed
+  - name: mobileNumber
+  - name: created
+    direction: desc
+
+- kind: PasswordStore
+  properties:
+  - name: clue
+  - name: mobileNumber
+  - name: created
+    direction: desc
+
+- kind: PasswordStore
+  properties:
+  - name: confirmed
+  - name: created
+    direction: desc
+
+- kind: RateManager
+  properties:
+  - name: mobileNumber
+  - name: created

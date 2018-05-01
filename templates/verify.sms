@@ -1,0 +1,1 @@
+Verify {{ action }} https://mysecret.studio/verify?action=verify&id={{ id }}

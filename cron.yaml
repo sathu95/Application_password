@@ -1,0 +1,4 @@
+cron:
+- description: "clean up job"
+  url: /_cleanup
+  schedule: every 30 minutes
